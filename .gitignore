@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type check / linters
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# OS (macOS)
+.DS_Store
+
+# IDE (PyCharm / IntelliJ)
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env files (secrets)
+.env
+.env.*
+!.env.example
+
+# Alembic
+# keep migrations, ignore compiled files
+alembic/**/*.pyc
+
+# Docker
+# ignore local volumes / override files if used
+docker-compose.override.yml
+
+# Redis/Postgres data (if accidentally created locally)
+postgres_data/
+data/
+
+# uv cache (если появится)
+.uv/
+uv-cache/
+/alembic/versions/
